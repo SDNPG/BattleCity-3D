@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1717647355109316}
+  m_IsPrefabParent: 1
+--- !u!1 &1717647355109316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4913321921389222}
+  - component: {fileID: 114952842471511476}
+  m_Layer: 0
+  m_Name: UI_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4913321921389222
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1717647355109316}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 326.36655, y: 255.3108, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114952842471511476
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1717647355109316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53cdf291f279d594183fd53ee66a6f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShellTypeValue: {fileID: 0}
+  CaliberValue: {fileID: 0}
+  S_Penetration: {fileID: 0}
+  PenetrationValue: {fileID: 0}
+  AngleValue: {fileID: 0}
+  CorretionAngleValue: {fileID: 0}
+  ArmorValue: {fileID: 0}
+  DistanceValue: {fileID: 0}
+  ReturnValue: {fileID: 0}
+  mainmeun: {fileID: 0}
+  F_PenetrationValue: {fileID: 0}
+  F_AngleValue: {fileID: 0}
+  F_CorretionAngleValue: {fileID: 0}
+  F_ArmorValue: {fileID: 0}
+  F_DistanceValue: {fileID: 0}
+  F_ReturnValue: {fileID: 0}
